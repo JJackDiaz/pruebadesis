@@ -14,10 +14,10 @@ Instalación
 
 Para instalar el proyecto, sigue los siguientes pasos:
 
-1. Clona el repositorio "git clone https://github.com/JJackDiaz/pruebadesis.git".
-2. Crea la base de datos.
-3. Ejecuta el scripts ubicado en SQL/script.sql.
-4. Modifica la conexion a la base de datos "config/conexion.php".
+1. Clonar el repositorio "git clone https://github.com/JJackDiaz/pruebadesis.git".
+2. Crear la base de datos.
+3. Ejecutar el scripts ubicado en SQL/script.sql.
+4. Modificar la conexion a la base de datos "config/conexion.php".
 4. Correr servidor local.
 5. Abrir en el navegador http://localhost/pruebadesis/
 
