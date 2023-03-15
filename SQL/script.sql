@@ -1,4 +1,4 @@
---CREATE TABLES
+##CREATE TABLES
 
 DROP TABLE IF EXISTS `region`;
 
@@ -45,13 +45,13 @@ difusion varchar(255),
 
 UNIQUE (rut),
 FOREIGN KEY (id_region) REFERENCES region(id),
-FOREIGN KEY (id_comuna) REFERENCES comuna(id)
+FOREIGN KEY (id_comuna) REFERENCES comuna(id),
 FOREIGN KEY (id_candidato) REFERENCES candidato(id)
 
 )ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 
---INSERTS
+##INSERTS
 
 INSERT INTO `region` (`nombre`,`codigo`,`capital`)
 VALUES
@@ -423,7 +423,7 @@ VALUES
 
 
 
---CANDIDATOS
+##CANDIDATOS
 
 INSERT INTO `candidato` (`nombre`,`apellido`, email)
 VALUES
