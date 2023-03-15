@@ -1,0 +1,35 @@
+#title {
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+#myForm {
+    margin-top: 5px;
+    margin-left: 2px;
+}
+
+.form-group {
+    margin: 10px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+label {
+    display: inline-block;
+    width: 15%;
+}
+
+.input-container {
+    display: flex;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+button {
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+select {
+    width: 160px !important;
+}
