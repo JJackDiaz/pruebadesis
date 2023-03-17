@@ -17,6 +17,7 @@ $(document).ready(function() {
             },
             rut: {
                 required: true,
+                //validacion remota
                 remote: {
                     url: 'http://localhost/pruebadesis/controllers/validar_rut.php',
                     type: 'post'

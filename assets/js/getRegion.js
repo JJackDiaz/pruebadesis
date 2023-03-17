@@ -2,6 +2,7 @@
 var xmlhttp = new XMLHttpRequest();
 
 xmlhttp.onreadystatechange = function() {
+    //valida los estados de la solictud sean enviados correctamente.
     if (this.readyState == 4 && this.status == 200) {
         // Convertir la respuesta en un objeto JavaScript
         var data = JSON.parse(this.responseText);
@@ -20,5 +21,7 @@ xmlhttp.onreadystatechange = function() {
     }
 };
 
+//iniciar solicitud
 xmlhttp.open("GET", "controllers/getRegion.php", true);
+//enviar solicitud
 xmlhttp.send();
